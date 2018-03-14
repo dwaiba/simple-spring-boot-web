@@ -47,6 +47,17 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	  <profile>
+	      <id>sonar</id>
+	      <activation>
+		  <activeByDefault>true</activeByDefault>
+	      </activation>
+	      <properties>
+		  <sonar.host.url>https://sonarqube-openshift.13.81.83.90.nip.io/</sonar.host.url>
+		  <sonar.login>admin</sonar.login>
+		  <sonar.password>admin</sonar.password>
+	      </properties>
+	    </profile>
 	<build>
 		<plugins>
 			<!-- Package as an executable jar/war -->
