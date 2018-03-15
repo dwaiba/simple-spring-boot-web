@@ -41,7 +41,7 @@ node('maven') {
 
   stage('Unit Test') {
 
-    sh "${mvnCmd} test -f ${pomFileLocation}"
+    sh "${mvnCmd} test -f ${pomFileLocation} sonar:sonar"
 
   }
 
