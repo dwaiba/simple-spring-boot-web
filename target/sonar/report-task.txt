@@ -1,6 +1,0 @@
-projectKey=org.springframework.boot:spring-boot-web-jsp
-serverUrl=http://sonarqube-openshift.13.81.83.90.nip.io
-serverVersion=7.0.0.36138
-dashboardUrl=http://sonarqube-openshift.13.81.83.90.nip.io/dashboard/index/org.springframework.boot:spring-boot-web-jsp
-ceTaskId=AWIpkkXExOS9Vw3iPWeR
-ceTaskUrl=http://sonarqube-openshift.13.81.83.90.nip.io/api/ce/task?id=AWIpkkXExOS9Vw3iPWeR
