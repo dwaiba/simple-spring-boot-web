@@ -47,7 +47,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-	<profiles>  
+	<!--profiles>  
 	<profile>
 	      <id>sonar</id>
 	      <activation>
@@ -59,7 +59,7 @@
 		  <sonar.password>admin</sonar.password>
 	      </properties>
 	    </profile>
-	</profiles>
+	</profiles-->
 	<build>
 		<plugins>
 			<!-- Package as an executable jar/war -->
@@ -67,11 +67,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!--plugin>
    				<groupId>org.codehaus.mojo</groupId>
    				<artifactId>sonar-maven-plugin</artifactId>
    				<version>3.4.0.905</version>
-			</plugin>
+			</plugin-->
 		</plugins>
 	</build>
   <distributionManagement>
